@@ -1,9 +1,9 @@
 #include <stdio.h>
 
-
-/* writing my first c program
- * am so exicted
-*/ thats all for the trash
+/**
+ * my c code
+ * am so happy writing
+ */
 
 int main(void)
 {
