@@ -1,5 +1,5 @@
 #include <stdio.h>
-/*
+/**
  * main - Return all alphabets in lowercase  except q and e
  * followed by a new line
  * Return: always return 0 (sucess)
