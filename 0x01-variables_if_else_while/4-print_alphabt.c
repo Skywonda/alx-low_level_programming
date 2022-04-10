@@ -6,11 +6,14 @@
 
 int main(void)
 {
-	char a= 'a';
+	char a = 'a';
+
 	while (a <= 'z')
+	{
 		if (a != 'q' && a != 'e')
 			putchar(a);
 		c++;
+	}
 	putchar('\n');
 	return (0)
 }
