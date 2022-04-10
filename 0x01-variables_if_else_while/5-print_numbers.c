@@ -5,7 +5,6 @@
  * followed by a new line
  * Return: Always return 0 (success)
  */
-
 int main(void)
 {
 	int num;
