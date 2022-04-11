@@ -1,5 +1,5 @@
 #include <stdio.h>
-/** 
+/**
  * main - Prints all single base 10 numbers
  * followed by a new line
  * Return: Always return 0 (Success)
