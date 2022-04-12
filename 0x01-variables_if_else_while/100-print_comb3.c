@@ -21,4 +21,5 @@ int main(void)
 		num1++;
 		num2++;
 	}
-}:
+	return (0);
+}
