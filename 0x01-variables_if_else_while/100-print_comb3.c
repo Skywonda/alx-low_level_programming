@@ -8,8 +8,8 @@
 
 int main(void)
 {
-	num1 = 48;
-	num2 = 48;
+	int num1 = 48;
+	int num2 = 48;
 
 	while (num1 < 60)
 	{
