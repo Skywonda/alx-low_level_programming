@@ -27,10 +27,10 @@ int main(void)
 				putchar(',');
 				putchar(' ');
 			}
-			num1++
+			num1++;
 		}
-		num2++
+		num2++;
 	}
-	putchar('\n')
+	putchar('\n');
 	return (0);
 }
