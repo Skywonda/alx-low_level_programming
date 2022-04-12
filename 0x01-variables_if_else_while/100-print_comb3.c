@@ -1,36 +1,37 @@
 #include <stdio.h>
 
 /**
- * main - prints possible different combinations
- * comibation with same digits cannot be used more than once
- * all numbers would be printed in accending order
+ * main - Prints numbers between 00 to 89.
+ *
+ * Return: Always 0 (Success)
  */
-
 int main(void)
 {
-    int num1 = 48;
-    int num2 = 48;
+	int i, e;
 
-    while (num2 < 58)
-    {
-        num1 = 48;
-        while (num1 < 58)
-        {
-            if (num1 < num2 && num1 < num2)
-            {
-                putchar(num1);
-                putchar(num2);
-                if (num1 == 57 && num2 == 56)
-                {
-                    break;
-                }
-                putchar(',');
-                putchar(' ');
-            }
-            num2++;
-        }
-        num1++;
-    }
-    putchar('\n');
-    return (0);
+	i = 48;
+	e = 48;
+
+	while (e < 58)
+	{
+		i = 48;
+		while (i < 58)
+		{
+			if (e != i && e < i)
+			{
+				putchar(e);
+				putchar(i);
+				if (i == 57 && e == 56)
+				{
+					break;
+				}
+				putchar(',');
+				putchar(' ');
+			}
+			i++;
+		}
+		e++;
+	}
+	putchar('\n');
+	return (0);
 }
