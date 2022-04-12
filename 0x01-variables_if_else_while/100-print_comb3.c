@@ -12,14 +12,25 @@ int main(void)
 	int num2 = 48;
 
 	while (num1 <58)
-		num1 = 48
+	{
+		num1 = 48;
 		while (num2 < 58)
 		{
 			if (num1 != num2 && num1 < num2)
 			{
 				putchar(num1);
 				putchar(num2);
+				if (num1 == 57 && num2 == 56)
+				{
+					break;
+				}
+				putchar(',');
+				putchar(' ');
 			}
+			num1++
+		}
+		num2++
 	}
+	putchar('\n')
 	return (0);
 }
