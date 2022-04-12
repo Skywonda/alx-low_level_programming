@@ -11,10 +11,10 @@ int main(void)
     int num1 = 48;
     int num2 = 48;
 
-    while (num1 < 58)
+    while (num2 < 58)
     {
-        num2 = 48;
-        while (num2 < 58)
+        num1 = 48;
+        while (num1 < 58)
         {
             if (num1 < num2 && num1 < num2)
             {
