@@ -14,8 +14,10 @@ int main(void)
 	while (num1 < 60)
 	{
 		if (num1 != num2 && num1 < num2)
+		{
 			putchar(num1);
 			putchar(num2);
+		}
 		num1++;
 		num2++;
 	}
