@@ -1,6 +1,6 @@
 #include "main.h"
 
-/** main - check the code
+/** reset_to_98 - takes an int as parameter and update the value to 98
  * 
  * Return: returns void
  */
