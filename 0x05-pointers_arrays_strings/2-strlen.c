@@ -4,12 +4,13 @@
 /**
  * _strlen - return length of a given string
  * @s: is the string itself
- * Return: Return string length
+ * Return: always return (0)
  */
 
 int _strlen(char *s)
 {
 	int length;
 	length = strlen(*s);
-	return (length);
+	printf("%d", length);
+	return (0);
 }
