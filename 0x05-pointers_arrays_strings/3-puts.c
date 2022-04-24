@@ -1,17 +1,19 @@
 #include "main.h"
 /**
  * _puts - prints a string
+ * str - function parameter
  * followed by a new line
  * Return: return void
  */
 
 void _puts(char *str)
 {
-	int i;
+	int i = 0;
 
-	for (i =0; i != '\0'; i++)
+	while (i != '\0')
 	{
 		_putchar(str[i]);
+		i++;
 	}
 	_putchar('\n');
 }
