@@ -1,3 +1,5 @@
+#include "main.h"
+
 /**
  * print_rev - prints string in a reversed order
  * @s: A string
