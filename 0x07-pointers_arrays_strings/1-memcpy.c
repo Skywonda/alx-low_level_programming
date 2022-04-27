@@ -1,0 +1,20 @@
+#include "main.h"
+
+/**
+ * _memcpy - copies memory area
+ * @dest: destination
+ * @src: unknown
+ * @n: index
+ * Return: returns pointer to a destination
+ */
+
+char *_memcpy(char *dest, char *scr, unsigned int n)
+{
+	unsigned int i;
+
+	for (i = 0; i < n; i++)
+	{
+		dest[i] = src[i];
+	}
+	return (dest);
+}
